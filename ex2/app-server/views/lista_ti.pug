@@ -1,0 +1,22 @@
+extends layout
+
+block content
+	.w3-container
+		.w3-panel.w3-blue.w3-center
+			h1 Listagem dos Termos de Índice
+			pre Aqui encontrarás todos os termos de índice
+	.w3-container
+		table.w3-table-all.w3-centered
+			thead
+				tr
+					th Termo
+					th Estado
+			tbody
+				each ti in lista
+					tr.w3-hover-blue
+						td
+							a(href='/termosInd/' + ti.id) #{ti.termo}
+						td= ti.estado
+	.w3-container.w3-center.w3-margin
+		.w3-button.w3-blue.w3-margin
+			a(href='/') Voltar ao Início

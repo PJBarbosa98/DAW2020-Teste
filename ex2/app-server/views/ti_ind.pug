@@ -1,0 +1,27 @@
+extends layout
+
+block content
+	.w3-container
+		.w3-panel.w3-blue.w3-center
+			h1 Termo de Índice #{ti.idClasse}
+			pre Aqui encontrarás toda a informação sobre o TI em questão:
+	.w3-container
+		table.w3-table-all.w3-centered
+			thead
+				tr
+					th Termo
+					th Estado
+					th ID
+					th Título da Classe
+					th Código da Classe
+
+			tbody
+				tr.w3-hover-blue
+					td= ti.termo
+					td= ti.estado
+					td= ti.idClasse
+					td= ti.tituloClasse
+					td= ti.codigoClasse
+	.w3-container.w3-center.w3-margin
+		.w3-button.w3-blue.w3-margin
+			a(href='/') Voltar ao Início

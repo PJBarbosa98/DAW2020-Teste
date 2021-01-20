@@ -1,0 +1,142 @@
+1. Quantos processos (nível 3) e quais são pertencentes à descendência da classe 900?
+R. São 21. Estão listados abaixo:
+
+[
+  {
+    codigo: '900.10.001',
+    titulo: 'Conceção e realização de atividades ou acontecimentos artísticos',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.10.001',
+    status: 'A'
+  },
+  {
+    codigo: '900.10.002',
+    titulo: 'Conceção e realização de atividades desportivas ou recreativas',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.10.002',
+    status: 'A'
+  },
+  {
+    codigo: '900.10.500',
+    titulo: 'Organização e participação em homenagens e cerimónias comemorativas',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.10.500',
+    status: 'A'
+  },
+  {
+    codigo: '900.10.501',
+    titulo: 'Organização e participação em iniciativas de partilha e debate crítico',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.10.501',
+    status: 'A'
+  },
+  {
+    codigo: '900.10.502',
+    titulo: 'Organização e participação em iniciativas de prevenção e sensibilização',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.10.502',
+    status: 'A'
+  },
+  {
+    codigo: '900.10.503',
+    titulo: 'Organização e participação em iniciativas de promoção ou divulgação de produtos e serviços',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.10.503',
+    status: 'A'
+  },
+  {
+    codigo: '900.10.504',
+    titulo: 'Publicitação de iniciativas e atividades de terceiros',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.10.504',
+    status: 'A'
+  },
+  {
+    codigo: '900.10.505',
+    titulo: 'Organização e participação em cerimónia religiosa',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.10.505',
+    status: 'A'
+  }
+],
+[
+  {
+    codigo: '900.20.001',
+    titulo: 'Criação de imagem e identidade gráficas',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.20.001',
+    status: 'A'
+  },
+  {
+    codigo: '900.20.002',
+    titulo: 'Criação de produtos e artigos promocionais',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.20.002',
+    status: 'A'
+  },
+  {
+    codigo: '900.20.200',
+    titulo: 'Conceção de conteúdos institucionais para divulgação',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.20.200',
+    status: 'A'
+  },
+  {
+    codigo: '900.20.201',
+    titulo: 'Edição e publicação de conteúdos',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.20.201',
+    status: 'A'
+  },
+  {
+    codigo: '900.20.400',
+    titulo: 'Elaboração de informações ou esclarecimentos institucionais para a comunicação social',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.20.400',
+    status: 'A'
+  },
+  {
+    codigo: '900.20.401',
+    titulo: 'Promoção ou participação em conferências de imprensa e entrevistas',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.20.401',
+    status: 'A'
+  },
+  {
+    codigo: '900.20.402',
+    titulo: 'Recolha e tratamento de dados de imprensa',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.20.402',
+    status: 'A'
+  },
+  {
+    codigo: '900.20.600',
+    titulo: 'Criação e atualização de contactos institucionais',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.20.600',
+    status: 'A'
+  },
+  {
+    codigo: '900.20.601',
+    titulo: 'Organização de cerimónias protocolares',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.20.601',
+    status: 'A'
+  },
+  {
+    codigo: '900.20.602',
+    titulo: 'Organização de visitas institucionais',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.20.602',
+    status: 'A'
+  },
+  {
+    codigo: '900.20.603',
+    titulo: 'Processamento de pedidos de audiência',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.20.603',
+    status: 'A'
+  },
+  {
+    codigo: '900.20.604',
+    titulo: 'Processamento de pedidos de informação e de esclarecimento',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.20.604',
+    status: 'A'
+  },
+  {
+    codigo: '900.20.605',
+    titulo: 'Processamento de mensagens de cortesia',
+    id: 'http://jcr.di.uminho.pt/m51-clav#c900.20.605',
+    status: 'A'
+  }
+]
+
+2. Quantas entidades estão catalogadas?
+R. Estão catalogadas 637 entidades.
+
+3. Quantos processos (classes de nível 3) se encontram na descendência de 900.10?
+R. 8 processos.
+
+4. Quantos processos (classes de nível 3) estão relacionados com 900.10.505?
+R. 5 processsos relacionados.

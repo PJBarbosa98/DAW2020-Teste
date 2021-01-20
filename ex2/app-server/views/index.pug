@@ -1,0 +1,19 @@
+extends layout
+
+block content
+	.w3-container
+		.w3-panel.w3-blue.w3-center
+			h1 Página Principal
+			pre Aqui encontrarás hiperligações para as classes e termos de índice
+	.w3-container
+		table.w3-table-all.w3-centered
+			thead
+				tr
+					th Classes
+					th Termos de Índice
+			tbody
+				tr.w3-hover-blue
+					td
+						a(href='/classes') Ver Classes
+					td
+						a(href='/termosInd') Ver Termos de Índice

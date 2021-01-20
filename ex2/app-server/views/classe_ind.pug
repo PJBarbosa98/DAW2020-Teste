@@ -1,0 +1,64 @@
+extends layout
+
+block content
+	.w3-container
+		.w3-panel.w3-blue.w3-center
+			h1 Página da Classe #{classe.codigo}
+			pre Informação base:
+	.w3-container
+		table.w3-table-all.w3-centered
+			thead
+				tr
+					th Nível
+					th Código
+					th Título
+					th Descrição
+					th Status
+			tbody
+				tr.w3-hover-blue
+					td= classe.nivel
+					td= classe.codigo
+					td= classe.titulo
+					td.w3-justify= classe.descricao
+					td= classe.status
+	if classe.nivel != 3
+		|
+		.w3-container
+			.w3-panel.w3-blue.w3-center
+				h3 Descendência
+				pre Processos filhos:
+		.w3-container
+			table.w3-table-all.w3-centered
+				thead
+					tr
+						th Código
+						th Título
+						th ID
+						th Status
+				tbody
+					each d in desc
+						tr.w3-hover-blue
+							td
+								a(href='/classes/' + d.codigo) #{d.codigo}
+							td= d.titulo
+							td= d.id
+							td= d.status
+	else
+		|
+		.w3-container
+			.w3-panel.w3-blue.w3-center
+				h3 Termos de Índice
+				pre Funcionam como palavras-chave para acesso aos processos ou classes de nível 3
+		.w3-container
+			table.w3-table-all.w3-centered
+				thead
+					tr
+						th Termo
+				tbody
+					each t in classe.termosInd
+						tr.w3-hover-blue
+							td
+								a(href='/termosInd/' + t.idTI.substr(33)) #{t.termo}
+	.w3-container.w3-center.w3-margin
+		.w3-button.w3-blue.w3-margin
+			a(href='/') Voltar ao Início
