@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>DAW2020-Teste</key>
+        <title>Teste de Desenvolvimento de Aplicações WEB</title>
+        <bdate>blank_pr.xml</bdate>
+        <edate>blank_pr.xml</edate>
+        <supervisor>José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="pg40160">
+            <name>Paulo Jorge da Silva Barbosa</name>
+            <email>pg40160@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>
+            O primeiro exercício do teste consiste em criar um servidor
+            nodejs para suportar a API de dados especificada no enunciado.
+            Primeiramente, foi transferido o dataset 'batismos.json' do
+            enunciado.
+            O script 'prepara_dataset.py' gerou um novo conjunto de dados
+            'batismos_new.json' que valida o json e adiciona os campos
+            '_id', 'pai' e 'mae'.
+            Os restantes erros de síntaxe foram corrigidos em
+            https://jsonlint.com/.
+            Os dados foram importados para o mongodb do seguinte modo:
+            mongoimport --db ExameDAW --collection batismos --file batismos_new.json --jsonArray.
+            Foi criada a aplicação 'api-server' com expressjs.
+            Instalaram-se as librarias mongoose e nodemon.
+            O servidor corre na porta 7701.
+            Para correr o servidor basta instalar os pacotes com 'npm install'
+            e iniciar com 'npm start'.
+        </p>
+        <p>
+            O segundo exercício está, por sua vez, dividido em duas secções.
+            Primeiro é necessário responder a algumas questões com recurso
+            ao POSTMAN.
+            As respostas encontram-se no ficheiro 'ex2/respostas.txt'.
+            Depois do "aquecimento", foi criada a aplicação 'app-server' também
+            em expressjs.
+            Instalaram-se as librarias nodemon e axios (para fazer pedidos à API).
+            Foi transferida a stylesheet w3.css e substituída pela default, por
+            preferência.
+            O servidor corre na porta 7702.
+            Para correr o servidor basta, tal como no exercício anterior,
+            instalar os pacotes com 'npm install' e iniciar com 'npm start'.
+        </p>
+    </abstract>
+    <deliverables>
+        <link url="ex1/dataset/batismos_new.json">Dataset corrigido.</link>
+        <link url="ex1/dataset/prepara_dataset.py">Script de correção do dataset.</link>
+        <link url="ex1/api-server">Servidor API do Exercício 1</link>
+        <link url="ex2/respostas.txt">Respostas às questões de aquecimento.</link>
+        <link url="ex2/app-server">Servidor APP do Exercício 2</link>
+    </deliverables>
+</pr>
